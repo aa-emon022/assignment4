@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="./output/tailwind.css">
+</head>
+<body class="h-screen">
+  <div class="flex">
+
+
+    <div class="w-[70%] flex gap-[120px] m-[20px] box-content-[100px]" >
+
+      
+      <div class="border border-solid rounded-md shadow-2xl w-[220px] h-[120px]">
+        <p class="dataName ">
+          Product Name: <span class="text-slate-950">Product 1</span>
+        </p>
+        <p class="pPrice pl-[60px] pt-[20px]">Price:<span class="text-red-600">$10</span></p>
+        <button class="add-to-cart  border border-solid ml-[58px] mt-[10px] bg-indigo-400" data-product-id="1">Add  to Cart</button>
+      </div>
+      <div class="border border-solid rounded-md shadow-2xl w-[220px] h-[120px]">
+        <p class="dataName ">
+          Product Name: <span class="text-slate-950">Product 2</span>
+        </p>
+        <p class="pPrice pl-[60px] pt-[20px]">Price:<span class="text-red-600">$20</span></p>
+        <button class="add-to-cart  border border-solid ml-[58px] mt-[10px] bg-indigo-400" data-product-id="2">Add  to Cart</button>
+      </div>
+      <div class="border border-solid rounded-md shadow-2xl w-[220px] h-[120px]">
+        <p class="dataName ">
+          Product Name: <span class="text-slate-950">Product 3</span>
+        </p>
+        <p class="pPrice pl-[60px] pt-[20px]">Price:<span class="text-red-600">$30</span></p>
+        <button class="add-to-cart  border border-solid ml-[58px] mt-[10px] bg-indigo-400" data-product-id="3">Add  to Cart</button>
+      </div>
+    </div>
+
+    <div class="wl-[30%]  border-dashed  box-border h-[220px] w-[250px] p-4 border-4  overflow-y-scroll overflow-x-hidden" >
+      <h1 class="italic font-extrabold text-rose-950 border border-none my-[10px] ml-[35px]  ">Shopping Cart</h1>
+      <div class="cart-items border-2 border-dotted bg-red-200 box-border w-[200px]">
+        
+      </div>
+      
+    </div>
+    
+    
+  </div>
+  <div>
+    <button class="clear-cart   border border-solid mt-[30px] sm:ml-[800px] md:ml-[1020px]    bg-gradient-to-r from-purple-500 to-pink-500">Clear Cart</button>
+  </div>
+ 
+  
+
+ 
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
